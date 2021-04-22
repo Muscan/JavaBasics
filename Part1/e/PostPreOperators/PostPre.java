@@ -8,11 +8,11 @@ public class PostPre {
         System.out.println("Value of --a is " + a);
         b++;//b becomes 13
         System.out.println("Value of b++ is " + b);
-        a=b--;//a(89) takes the value of  b(13)=> a becoms 13, b becomes 12
+        a=b--;//a(89) takes the value of  b(13)=> a becomes 13, b becomes 12
         System.out.println("Value of a is " + a);
         c=a++;//c(89) takes the value of a(13)=> c becomes 13, a becomes 14
         System.out.println("Value of c is " + c);
-        b=++a;//b (12)takes the values of a(14)=> a becomes 15 apoi  b becomes 15,
+        b=++a;//b (12)takes the values of a(14)=> a becomes 15 then  b becomes 15,
         System.out.println("Value of b is " + b);
         System.out.println(a++);//print 15  then becomes 16
         System.out.println(++c);//c becomes 14, print 14
