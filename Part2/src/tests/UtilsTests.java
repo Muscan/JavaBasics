@@ -37,4 +37,15 @@ public class UtilsTests {
         Functions f = new Functions();
         assert (f.numberOfDigits(12) !=5);
     }
+    @Test
+    public void evenDigits_NoEvenDigits_True(){
+        Functions f = new Functions();
+        assert(f.evenDigits(13579) == 0);
+    }
+
+    @Test
+    public void evenDigits_ThreeEvenDigits_True(){
+        Functions f = new Functions();
+        assert (f.evenDigits(36841) == 3);
+    }
 }
