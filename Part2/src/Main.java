@@ -1,4 +1,5 @@
-import utils.Functions;
+//import utils.Functions;
+import utils.*;
 
 import java.util.Scanner;
 
@@ -22,9 +23,22 @@ public class Main {
         System.out.println("Nr of even digits of 36841 =  " + f.evenDigits(36841));
     }
 
+    public static void callMaxDigit(){
+        Functions f = new Functions();
+        System.out.println("Max digit of number 456789 =  " + f.maxDigit(456789));
+    }
+
+    public static void callOddDigits(){
+        Functions f = new Functions();
+        System.out.println(("Total number of odd digits from a number is ")
+                   + (f.numberOfDigits(123456) - f.evenDigits(789)));
+    }
+
     public static void main(String[] args) {
         callNrDigits();
         callMinNumber();
         callEvenDigits();
+        callMaxDigit();
+        callOddDigits();
     }
 }

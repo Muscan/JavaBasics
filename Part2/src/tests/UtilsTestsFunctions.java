@@ -1,7 +1,8 @@
 package tests;
 
-import org.junit.Test;
-import utils.Functions;
+import org.junit.*;
+//import utils.Functions;
+import utils.*;
 
 public class UtilsTestsFunctions {
 
@@ -47,5 +48,23 @@ public class UtilsTestsFunctions {
     public void evenDigits_ThreeEvenDigits_True(){
         Functions f = new Functions();
         assert (f.evenDigits(36841) == 3);
+    }
+
+    @Test
+    public void maxDigit_AllEquals_True(){
+        Functions f = new Functions();
+        assert (f.maxDigit(777) == 7);
+    }
+
+    @Test
+    public void maxDigit_Max_True(){
+        Functions f = new Functions();
+        assert (f.maxDigit(467382) == 8);
+    }
+
+    @Test
+    public void oddDigit_5Odd_Digits_True(){
+        Functions f = new Functions();
+        assert (f.oddDigit(13579)==3);
     }
 }

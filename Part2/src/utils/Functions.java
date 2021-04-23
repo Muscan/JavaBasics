@@ -41,4 +41,24 @@ public class Functions {
         }
         return count;
     }
+
+    //todo: add a function for the max digit
+
+    public int maxDigit(int number){
+        int maxim = number % 10;
+        while (number != 0) {
+            int digit = number % 10;
+
+            if (digit > maxim) {
+                maxim = digit;
+            }
+            number = number / 10;
+        }
+
+        return maxim;
+    }
+
+    public int oddDigit(int number){
+        return (numberOfDigits(123456) - evenDigits(789));
+    }
 }
