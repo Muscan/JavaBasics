@@ -1,4 +1,4 @@
-package f.LogicalOperators;
+package logicalOperators;
 //Which of the expressions have value 1 only if a and b have the same sign and are odd
 public class LogicalOperations {
     public static void main(String[] args) {

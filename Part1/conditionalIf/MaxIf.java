@@ -1,4 +1,4 @@
-package g.ConditionalIf;
+package conditionalIf;
 
 import java.util.Scanner;
 

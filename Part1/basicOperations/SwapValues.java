@@ -1,4 +1,4 @@
-package c.BasicOperations;
+package basicOperations;
 
 import java.util.Scanner;
 

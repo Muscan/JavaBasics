@@ -1,4 +1,4 @@
-package e.PostPreOperators;
+package postPreOperators;
 
 public class PostInc {
     public static void main(String[] args) {

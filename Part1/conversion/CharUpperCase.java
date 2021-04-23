@@ -1,4 +1,4 @@
-package d.Conversion;
+package conversion;
 
 import java.util.Scanner;
 

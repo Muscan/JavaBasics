@@ -1,4 +1,4 @@
-package f.LogicalOperators;
+package logicalOperators;
 //Which of the following expressions return value 1?
 public class LogicalOperations2 {
     public static void main(String[] args) {
