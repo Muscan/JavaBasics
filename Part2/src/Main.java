@@ -34,11 +34,16 @@ public class Main {
                    + (f.numberOfDigits(123456) - f.evenDigits(789)));
     }
 
+    public static void callSameDigits(){
+        Functions f = new Functions();
+        System.out.println("Are 777 the same numbers? " + f.sameDigits(777));
+    }
     public static void main(String[] args) {
         callNrDigits();
         callMinNumber();
         callEvenDigits();
         callMaxDigit();
         callOddDigits();
+        callSameDigits();
     }
 }

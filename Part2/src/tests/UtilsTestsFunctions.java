@@ -66,6 +66,18 @@ public class UtilsTestsFunctions {
     @Test
     public void oddDigit_5Odd_Digits_True(){
         Functions f = new Functions();
-        assert (f.oddDigit(13579)==3);
+        assert (f.numberOfDigits(123456) - f.evenDigits(789) == 5);
+    }
+
+    @Test
+    public void sameDigits_AllEqual_True(){
+        Functions f = new Functions();
+        assert (f.sameDigits(5555) == true);
+    }
+
+    @Test
+    public void sameDigits_1Differs_True(){
+        Functions f = new Functions();
+        assert (f.sameDigits(2221) != true);
     }
 }

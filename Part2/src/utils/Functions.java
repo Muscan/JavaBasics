@@ -61,4 +61,18 @@ public class Functions {
     public int oddDigit(int number){
         return (numberOfDigits(123456) - evenDigits(789));
     }
+
+    public boolean sameDigits(int number){
+        int lastDigit = number % 10;
+        while (number != 0) {
+            int digit = number % 10;
+            if (digit != lastDigit) {
+                return false;
+            }
+
+            number = number / 10;
+        }
+
+        return true;
+    }
 }
