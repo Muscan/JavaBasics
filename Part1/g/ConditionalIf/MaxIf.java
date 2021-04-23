@@ -25,7 +25,6 @@ public class MaxIf {
 
         //todo:if ele
 /*
-
        if(x > y){
            System.out.println("Max is  " + x);
            } else {
