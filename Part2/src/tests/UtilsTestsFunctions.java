@@ -3,7 +3,7 @@ package tests;
 import org.junit.Test;
 import utils.Functions;
 
-public class UtilsTests {
+public class UtilsTestsFunctions {
 
     @Test
     public void MinNumber_NumberIsZero_True(){

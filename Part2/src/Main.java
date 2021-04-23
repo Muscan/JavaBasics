@@ -22,7 +22,6 @@ public class Main {
         System.out.println("Nr of even digits of 36841 =  " + f.evenDigits(36841));
     }
 
-
     public static void main(String[] args) {
         callNrDigits();
         callMinNumber();

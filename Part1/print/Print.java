@@ -1,4 +1,4 @@
-package a.Print;
+package print;
 
 public class Print {
 
