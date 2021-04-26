@@ -80,4 +80,17 @@ public class UtilsTestsFunctions {
         Functions f = new Functions();
         assert (f.sameDigits(2221) != true);
     }
+
+    @Test
+    public void smallestEven_3EvenDigits_True(){
+        Functions f = new Functions();
+        assert (f.evenDigits(246) == 2);
+    }
+
+    @Test
+    public void smallestEven_allOdd_True(){
+        Functions f = new Functions();
+        assert (f.evenDigits(1379) == 0);
+    }
+
 }

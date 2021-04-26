@@ -38,6 +38,11 @@ public class Main {
         Functions f = new Functions();
         System.out.println("Are 777 the same numbers? " + f.sameDigits(777));
     }
+
+    public static void callSmallestEven(){
+        Functions f = new Functions();
+        System.out.println("Smallest even digit for 123456789 is:  " + f.smallestEven(123456789));
+    }
     public static void main(String[] args) {
         callNrDigits();
         callMinNumber();
@@ -45,5 +50,7 @@ public class Main {
         callMaxDigit();
         callOddDigits();
         callSameDigits();
+        callSmallestEven();
+
     }
 }

@@ -75,4 +75,20 @@ public class Functions {
 
         return true;
     }
+//check the greatest and smallest even digit of a number
+   public static int smallestEven(int number) {
+
+    int smallestDigit = 10;
+    while (number != 0) {
+        int digit = number % 10;
+        if (digit < smallestDigit && digit % 2 == 0) {
+            smallestDigit = digit;
+        }
+        number = number / 10;
+
+        }
+
+        return smallestDigit;
+    }
+
 }
