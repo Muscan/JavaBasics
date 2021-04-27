@@ -16,7 +16,7 @@ public class SneakerRepository {
     public void save(Sneakers s){
         this.sneakersArray.add(s);
     }
-
+//f
     public void delete (Sneakers s){
         this.sneakersArray.remove(s);
     }
