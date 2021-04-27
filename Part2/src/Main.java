@@ -31,7 +31,7 @@ public class Main {
     public static void callOddDigits(){
         Functions f = new Functions();
         System.out.println(("Total number of odd digits from a number is ")
-                   + (f.numberOfDigits(123456) - f.evenDigits(789)));
+                   + (f.oddDigit(123456)));
     }
 
     public static void callSameDigits(){

@@ -66,7 +66,13 @@ public class UtilsTestsFunctions {
     @Test
     public void oddDigit_5Odd_Digits_True(){
         Functions f = new Functions();
-        assert (f.numberOfDigits(123456) - f.evenDigits(789) == 5);
+        assert (f.oddDigit(12345679) == 5);
+    }
+
+    @Test
+    public void oddDigit_allEven_True(){
+        Functions f = new Functions();
+        assert(f.oddDigit(2468)==0);
     }
 
     @Test
@@ -84,13 +90,13 @@ public class UtilsTestsFunctions {
     @Test
     public void smallestEven_3EvenDigits_True(){
         Functions f = new Functions();
-        assert (f.evenDigits(246) == 2);
+        assert (f.smallestEven(246) == 2);
     }
 
     @Test
     public void smallestEven_allOdd_True(){
         Functions f = new Functions();
-        assert (f.evenDigits(1379) == 0);
+        assert (f.smallestEven(1379) == 10);
     }
 
 }

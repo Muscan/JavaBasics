@@ -34,10 +34,11 @@ public class Functions {
         if(number == 0)
             return 1;
         while (number != 0) {
-            number = number / 10;
+
             if (number % 2 == 0 && number != 0) {
                 count++;
             }
+            number = number / 10;
         }
         return count;
     }
@@ -59,7 +60,7 @@ public class Functions {
     }
 
     public int oddDigit(int number){
-        return (numberOfDigits(123456) - evenDigits(789));
+        return (numberOfDigits(number) - evenDigits(number));
     }
 
     public boolean sameDigits(int number){
@@ -76,7 +77,7 @@ public class Functions {
         return true;
     }
 //check the greatest and smallest even digit of a number
-   public static int smallestEven(int number) {
+   public int smallestEven(int number) {
 
     int smallestDigit = 10;
     while (number != 0) {
