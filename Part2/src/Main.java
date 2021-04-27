@@ -2,6 +2,7 @@
 import utils.*;
 
 import java.util.Scanner;
+import java.util.function.Function;
 
 public class Main {
 
@@ -43,6 +44,12 @@ public class Main {
         Functions f = new Functions();
         System.out.println("Smallest even digit for 123456789 is:  " + f.smallestEven(123456789));
     }
+
+    public static void callReversedNumber(){
+        Functions f = new Functions();
+        System.out.println("Reversed number 789 is: " + f.reverseNr(789));
+
+    }
     public static void main(String[] args) {
         callNrDigits();
         callMinNumber();
@@ -51,6 +58,7 @@ public class Main {
         callOddDigits();
         callSameDigits();
         callSmallestEven();
+        callReversedNumber();
 
     }
 }

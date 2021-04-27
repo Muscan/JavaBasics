@@ -99,4 +99,15 @@ public class UtilsTestsFunctions {
         assert (f.smallestEven(1379) == 10);
     }
 
+    @Test
+    public void reversedNumber_allEqual_True(){
+        Functions f = new Functions();
+        assert (f.reverseNr(777) == 777);
+    }
+    @Test
+    public void reversedNumber_noneEqual_True(){
+        Functions f = new Functions();
+        assert (f.reverseNr(789) == 987);
+    }
+
 }
