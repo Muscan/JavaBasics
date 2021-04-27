@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FootShop/FootShop.iml" filepath="$PROJECT_DIR$/FootShop/FootShop.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasics.iml" filepath="$PROJECT_DIR$/JavaBasics.iml" />
       <module fileurl="file://$PROJECT_DIR$/Part2/Part2.iml" filepath="$PROJECT_DIR$/Part2/Part2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Part3CRUD/Part3CRUD.iml" filepath="$PROJECT_DIR$/Part3CRUD/Part3CRUD.iml" />
     </modules>
   </component>
 </project>
