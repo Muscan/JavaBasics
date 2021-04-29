@@ -47,9 +47,7 @@ public class SneakerRepositoryTests {
         srFilter.save(s2);
         assert(srFilter.getSneakersOfACertainModel("a").size() == 2
                 && srFilter.getSneakersOfACertainModel("b").size() == 1);
-        // ceapa, gazon, salam, varza
-        //Verdeturi: ceapa, gazon, varza (size = 3)
-        //Carnuri: salam (size = 1)
+
     }
 
 }
