@@ -2,9 +2,7 @@ package repo;
 
 import domain.Sneakers;
 
-import java.sql.Array;
 import java.util.ArrayList;
-import java.util.stream.Collectors;
 
 
 public class SneakerRepository {
@@ -26,6 +24,15 @@ public class SneakerRepository {
         return this.sneakersArray;
     }
 
+    /**
+     *
+     * @param model
+     * @return @{ArrayList<Sneakers>}
+     * Isi face o lista de sneakers (filteredSneakers) in care salveaza adidasii cu modelul "model"
+     * Trece prin toata lista this.sneakersArray, si daca gaseste obiecte cu modelul cautat
+     *      il va adauga in filteredSneakers
+     * La sfarsit returneaza filteredSneaker, in care sunt adidasii cu modelul cautat
+      */
     public ArrayList<Sneakers> getSneakersOfACertainModel(String model){
        ArrayList<Sneakers> filteredSneakers = new ArrayList<>();
         for (int i = 0; i < this.sneakersArray.size(); i++) {
