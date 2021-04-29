@@ -12,13 +12,12 @@ public class Sneakers {
     public String getModel() {
         return model;
     }
+    public double getPrice() {
+        return price;
+    }
 
     public void setModel(String model) {
         this.model = model;
-    }
-
-    public double getPrice() {
-        return price;
     }
 
     public void setPrice(double price) {
@@ -32,4 +31,5 @@ public class Sneakers {
                 ", price=" + price +
                 '}';
     }
+
 }

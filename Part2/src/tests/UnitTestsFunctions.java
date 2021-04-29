@@ -5,7 +5,7 @@ import org.junit.*;
 import utils.*;
 
 
-public class UtilsTestsFunctions {
+public class UnitTestsFunctions {
 
     @Test
     public void MinNumber_NumberIsZero_True(){
